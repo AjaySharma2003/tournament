@@ -1,0 +1,2087 @@
+Index page
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="style/style.css"> 
+    <title>Home</title>
+</head>
+<body>
+   <header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;"> Tournament Spot </h1> </div>
+	<div class="menu" style="width:35%;">
+		<a href="#" style="color:#00b894;">Home</a>
+		<a href="user_login.php">User</a>
+		<a href="organizer_login.php">Organizer</a>
+		<a href="#">Contact Us</a>
+	</div>
+</nav>
+</header>
+<div class="wrapper"></div>
+
+
+
+
+   <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+
+
+organizer_login
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="style/style.css"> 
+    <title>Login</title>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;" class="neonText"> Tournament Spot </h1> </div>
+	<div class="menu" style="width:35%;">
+		<a href="index.html">Home</a>
+		<a href="user_login.php">User</a>
+		<a href="#" style="color:#00b894;">Organizer</a>
+		<a href="admin_login.php">Admin</a>
+	</div>
+</nav>
+</header>
+   <div class="wrapper">
+    <h3 class="form-head">Organizer Login</h3>
+    <form action="#" method="post" class="form-block" autocomplete="on">
+        <div class="registration">
+        <div class="first">
+        <div class="form-group">
+            <label for="organizer_mail" class="control-label">Mail</label>
+            <input type="email" name="organizer_mail" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="password" class="control-label">Password</label>
+            <input type="password" name="password" class="form-control" required>
+        </div>
+        <div class="form-group" align="center">
+            <input type="submit" name="organizer_login" class="button-34" role="button" value="Login" >
+        </div>
+        </div>
+    </form>
+    <center>
+    <a href="organizer_registration.php" class="letter-design"><strong>Need an account?</strong></a><br>
+   </center>
+</div>
+   </div>
+
+
+
+
+   <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+
+<?php
+include('webpages/connect.php');
+if(isset($_POST["organizer_login"]))
+{
+    $organizer_mail = $_POST["organizer_mail"];
+    $password = $_POST["password"];
+    $sql = "SELECT * FROM organizers WHERE organizer_mail='$organizer_mail'";
+    $result = mysqli_query($conn, $sql);
+    if(!$result){
+        echo mysqli_error($conn);
+    }
+    if(mysqli_num_rows($result)>0)
+    {
+        session_start();
+        $_SESSION["organizer_mail"] = $organizer_mail;
+         header('location:organizer/add_tournament.php');
+    }
+    else{
+        echo "<script>alert('Please enter valid Mail and Password')</script>";
+    }
+}
+?>
+
+
+
+organizer_registration
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="style/style.css"> 
+    <title>Registration</title>
+    <style>
+    </style>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;" class="neonText"> Tournament Spot </h1> </div>
+	<div class="menu" style="width:35%;">
+		<a href="index.html">Home</a>
+		<a href="user_login.php">User</a>
+		<a href="#" style="color:#00b894;">Organizer</a>
+		<a href="admin_login.php">Admin</a>
+	</div>
+</nav>
+</header>
+   <?php
+   if(isset($_POST["register"]))
+   {
+    $organizer_name = $_POST["organizer_name"];
+    $organizer_mail = $_POST["organizer_mail"];
+    $mobile_number = $_POST["mobile_number"];
+    $password = $_POST["password"];
+    $c_password = $_POST["c_password"];
+   }
+   ?>
+   <div class="wrapper">
+    <h3 class="form-head">organizer Registration</h3>
+    <form action="#" method="post" class="form-block" autocomplete="on">
+        <div class="registration">
+        <div class="first">
+        <div class="form-group">
+            <label for="organizer_name" class="control-label">Name</label>
+            <input type="text" name="organizer_name" class="form-control" value="<?php echo $organizer_name;?>" required>
+        </div>
+        <div class="form-group">
+            <label for="organizer_mail" class="control-label">Mail</label>
+            <input type="email" name="organizer_mail" class="form-control" value="<?php echo $organizer_mail;?>" required>
+        </div>
+        <div class="form-group">
+            <label for="mobile_number" class="control-label">Mobile Number</label>
+            <input type="tell" name="mobile_number" value="<?php echo $mobile_number;?>" pattern="[6-9]{1}[0-9]{9}" title="Enter a valid Mobile Number" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="password" class="control-label">Password</label>
+            <input type="password" name="password" class="form-control" value="<?php echo $password;?>" required>
+        </div>
+        <div class="form-group">
+            <label for="c_password" class="control-label">Confirm Password</label>
+            <input type="password" name="c_password" class="form-control" value="<?php echo $c_password;?>" required>
+        </div>
+        <div class="form-group" align="center">
+            <input type="submit" name="register" class="button-34" role="button" value="Register" >
+        </div>
+        </div>
+    </form>
+    <center>
+    <a href="organizer_login.php" class="letter-design"><strong>Already have an account?</strong></a><br>
+   </center>
+    </div>
+   </div>
+
+
+
+
+   <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+<?php
+include('webpages/connect.php');
+if(isset($_POST["register"]))
+{
+    $organizer_name = $_POST["organizer_name"];
+    $organizer_mail = $_POST["organizer_mail"];
+    $mobile_number = $_POST["mobile_number"];
+    $password = $_POST["password"];
+    $c_password = $_POST["c_password"];
+    $sql = "SELECT organizer_mail from organizers WHERE organizer_mail='$organizer_mail'";
+    $result = mysqli_query($conn, $sql);
+    if(mysqli_num_rows($result)>0)
+    {
+        echo "<script>alert('Given Mail Id is already Registered');</script>";
+    }
+    else{
+    if($password == $c_password)
+    {
+        $sql = "INSERT INTO organizers(organizer_name, organizer_mail, mobile_number, password) VALUES('$organizer_name','$organizer_mail',$mobile_number ,'$password')";
+        $result = mysqli_query($conn, $sql);
+        if($result)
+        {
+            echo "<script>alert('Registered Successfully');window.location='organizer_login.php';</script>";
+        }
+        else{
+            echo mysqli_error($conn);
+        }
+    }
+    else{
+        echo "<script>alert('Password and Confirm password should be same');</script>";
+    }
+}
+}
+?> 
+
+
+
+user_login
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="style/style.css"> 
+    <title>Login</title>
+    <style>
+        body{
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;" class="neonText"> Tournament Spot </h1> </div>
+	<div class="menu" style="width:35%;">
+		<a href="index.html">Home</a>
+		<a href="#" style="color:#00b894;">User</a>
+		<a href="organizer_login.php">Organizer</a>
+		<a href="admin_login.php">Admin</a>
+	</div>
+</nav>
+</header>
+   <div class="wrapper">
+    <h3 class="form-head">User Login</h3>
+    <form action="#" method="post" class="form-block" autocomplete="on">
+        <div class="registration">
+        <div class="first">
+        <div class="form-group">
+            <label for="user_mail" class="control-label">Mail</label>
+            <input type="email" name="user_mail" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="password" class="control-label">Password</label>
+            <input type="password" name="password" class="form-control" required>
+        </div>
+        <div class="form-group" align="center">
+            <input type="submit" name="user_login" class="button-34" role="button" value="Login" >
+        </div>
+        </div>
+    </form>
+    <center>
+    <a href="user_registration.php" class="letter-design"><strong>Need an account?</strong></a><br>
+   </center>
+</div>
+   </div>
+
+
+
+
+   <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+<?php
+include('webpages/connect.php');
+if(isset($_POST["user_login"]))
+{
+    $user_mail = $_POST["user_mail"];
+    $password = $_POST["password"];
+    $sql = "SELECT * FROM users WHERE user_mail='$user_mail'";
+    $result = mysqli_query($conn, $sql);
+    if(!$result){
+        $err = mysqli_error($conn);
+    }
+    if(mysqli_num_rows($result)>0)
+    {
+        session_start();
+        $_SESSION["user_mail"] = $user_mail;
+         header('location:user/view_tournaments.php');
+
+    }
+    else{
+        echo "<script>alert('Please enter valid Mail and Password')</script>";
+    }
+}
+?>
+
+   
+user_registration
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="style/style.css"> 
+    <title>Registration</title>
+    <style>
+    </style>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;" class="neonText"> Tournament Spot </h1> </div>
+	<div class="menu" style="width:35%;">
+		<a href="index.html">Home</a>
+		<a href="#" style="color:#00b894;">User</a>
+		<a href="organizer_login.php">Organizer</a>
+		<a href="admin_login.php">Admin</a>
+	</div>
+</nav>
+</header>
+   <?php
+   if(isset($_POST["register"]))
+   {
+    $user_name = $_POST["user_name"];
+    $user_mail = $_POST["user_mail"];
+    $mobile_number = $_POST["mobile_number"];
+    $password = $_POST["password"];
+    $c_password = $_POST["c_password"];
+   }
+   ?>
+   <div class="wrapper">
+    <h3 class="form-head">User Registration</h3>
+    <form action="#" method="post" class="form-block" autocomplete="on">
+        <div class="registration">
+        <div class="first">
+        <div class="form-group">
+            <label for="user_name" class="control-label">Name</label>
+            <input type="text" name="user_name" class="form-control" value="<?php echo $user_name;?>" required>
+        </div>
+        <div class="form-group">
+            <label for="user_mail" class="control-label">Mail</label>
+            <input type="email" name="user_mail" class="form-control" value="<?php echo $user_mail;?>" required>
+        </div>
+        <div class="form-group">
+            <label for="mobile_number" class="control-label">Mobile Number</label>
+            <input type="tell" name="mobile_number" value="<?php echo $mobile_number;?>" pattern="[6-9]{1}[0-9]{9}" title="Enter a valid Mobile Number" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="password" class="control-label">Password</label>
+            <input type="password" name="password" class="form-control" value="<?php echo $password;?>" required>
+        </div>
+        <div class="form-group">
+            <label for="c_password" class="control-label">Confirm Password</label>
+            <input type="password" name="c_password" class="form-control" value="<?php echo $c_password;?>" required>
+        </div>
+        <div class="form-group" align="center">
+            <input type="submit" name="register" class="button-34" role="button" value="Register" >
+        </div>
+        </div>
+    </form>
+    <center>
+    <a href="user_login.php" class="letter-design"><strong>Already have an account?</strong></a><br>
+   </center>
+    </div>
+   </div>
+
+
+
+
+   <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+<?php
+include('webpages/connect.php');
+if(isset($_POST["register"]))
+{
+    $user_name = $_POST["user_name"];
+    $user_mail = $_POST["user_mail"];
+    $mobile_number = $_POST["mobile_number"];
+    $password = $_POST["password"];
+    $c_password = $_POST["c_password"];
+    $sql = "SELECT user_mail from users WHERE user_mail='$user_mail'";
+    $result = mysqli_query($conn, $sql);
+    if(mysqli_num_rows($result)>0)
+    {
+        echo "<script>alert('Given Mail Id is already Registered');</script>";
+    }
+    else{
+    if($password == $c_password)
+    {
+        $sql = "INSERT INTO users(user_name, user_mail, mobile_number, password) VALUES('$user_name','$user_mail',$mobile_number ,'$password')";
+        $result = mysqli_query($conn, $sql);
+        if($result)
+        {
+            echo "<script>alert('Registered Successfully');window.location='user_login.php';</script>";
+        }
+        else{
+            echo mysqli_error($conn);
+        }
+    }
+    else{
+        echo "<script>alert('Password and Confirm password should be same');</script>";
+    }
+}
+}
+?> 
+
+
+
+
+
+
+Organizer Pages
+
+
+add_tournament
+
+
+
+<?php
+session_start();
+if(!isset($_SESSION["organizer_mail"]))
+{
+    header('location:organizer_login.php');
+}
+include('../webpages/time.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="../style/style.css"> 
+    <title>Add Tournament</title>
+    <style>
+        body{
+            background-size: cover;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;" class="neonText"> Tournament Spot </h1> </div>
+	<div class="menu">
+		<a href="organizer_home.html">Home</a>
+		<a href="#" style="color:#00b894;">Add Tournament</a>
+		<a href="my_tournaments.php">My Tournaments</a>
+		<a href="../webpages/logout.php">Logout</a>
+	</div>
+</nav>
+</header>
+   <div class="wrapper">
+    <h3 class="form-head">Tournament Details</h3><br>
+    <form action="#" method="post" class="form-block" autocomplete="on">
+        <div class="registration" style="display: flex;column-gap: 50px;padding-left:50px;">
+        <div class="first">
+        <div class="form-group">
+            <label for="tournament_name" class="control-label">Tournament Name</label>
+            <input type="text" name="tournament_name" class="form-control"  required>
+        </div>
+        <div class="form-group">
+            <label for="organizer" class="control-label">Organizer</label>
+            <input type="text" name="organizer" class="form-control"  required>
+        </div>
+        <div class="form-group">
+            <label for="game" class="control-label">Select Game</label>
+            <select name="game" id="game" class="form-control" required>
+                <option value=''>Select</option>
+                <option value='Football'>Football</option>
+                <option value='Cricket'>Cricket</option>
+                <option value='Kabaddi'>Kabaddi</option>
+                <option value='Volley-ball'>Volley Ball</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="category" class="control-label">Select Category</label>
+            <select name="category" id="category" class="form-control" required>
+                <option value=''>Select</option>
+                <option value='Under-14'>Under-14</option>
+                <option value='Under-17'>Under-17</option>
+                <option value='Under-19'>Under-19</option>
+                <option value='Open-Match'>Open Match</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="gender" class="control-label">Select Gender</label>
+            <select name="gender" id="gender" class="form-control" required>
+                <option value=''>Select</option>
+                <option value='Men'>Men</option>
+                <option value='Women'>Women</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="venue" class="control-label">Venue</label>
+            <input type="text" name="venue" class="form-control"  required>
+        </div>
+        <div class="form-group">
+            <label for="landmark" class="control-label">Landmark</label>
+            <input type="text" name="landmark" class="form-control"  required>
+        </div>
+        <div class="form-group">
+            <label for="district" class="control-label">District</label>
+            <input type="text" name="district" class="form-control"  required>
+        </div> 
+        </div>
+        <div class="second">
+        <div class="form-group">
+            <label for="state" class="control-label">State</label>
+            <input type="text" name="state" class="form-control"  required>
+        </div> 
+        <div class="form-group">
+            <label for="country" class="control-label">Country</label>
+            <input type="text" name="country" class="form-control"  required>
+        </div> 
+        <div class="form-group">
+            <label for="date" class="control-label">Date</label>
+            <input type="date" name="date" class="form-control" min="<?php echo $from;?>" max="<?php echo $valid_date;?>" required>
+        </div>
+        <h4 class="flex-head" align="center">Prize List</h4>
+        <div class="form-group">
+            <label for="first_price" class="control-label">First Price</label>
+            <input type="number" name="first_price" class="form-control"  required>
+        </div>
+        <div class="form-group">
+            <label for="second_price" class="control-label">Second Price</label>
+            <input type="number" name="second_price" class="form-control"  required>
+        </div>
+        <div class="form-group">
+            <label for="third_price" class="control-label">Third Price</label>
+            <input type="number" name="third_price" class="form-control"  required>
+        </div>
+        <div class="form-group">
+            <label for="additional_price" class="control-label">Additional Price</label>
+            <textarea name="additional_price" class="form-control" required row="200"></textarea>
+        </div>
+    </div>
+    <div class="third">
+        <div class=""></div>
+    <div class="form-group">
+            <label for="entrance_fees" class="control-label">Entrance Fees</label>
+            <input type="number" name="entrance_fees" class="form-control"  required>
+        </div>
+        <h4 class="flex-head" align="center">Additional Information</h4>
+        <div class="form-group">
+            <label for="rules" class="control-label">Rules</label>
+            <textarea name="rules" class="form-control" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="about_event" class="control-label">About the Event</label>
+            <textarea name="about_event" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="about_organizer" class="control-label">About the Organizers</label>
+            <textarea name="about_organizer" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="contact_details" class="control-label">Contact Details</label>
+            <textarea name="contact_details" class="form-control"></textarea>
+        </div>
+    </div></div>
+        <div class="form-group" align="center">
+            <input type="submit" name="add_tournament" class="button-34" role="button" value="Add Tournament" >
+        </div>
+        
+    </form>
+    </div>
+   </div>
+
+
+
+
+   <script src="../Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="../Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+
+<?php
+include('../webpages/connect.php');
+if(isset($_POST["add_tournament"]))
+{
+    $tournament_name = $_POST["tournament_name"]; 
+    $organizer = $_POST["organizer"]; 
+    $game = $_POST["game"]; 
+    $category = $_POST["category"]; 
+    $gender = $_POST["gender"]; 
+    $venue = $_POST["venue"]; 
+    $landmark = $_POST["landmark"]; 
+    $district = $_POST["district"];
+    $state = $_POST["state"];
+    $country = $_POST["country"];
+    $date = $_POST["date"]; 
+    $first_price = (int)$_POST["first_price"]; 
+    $second_price = (int)$_POST["second_price"]; 
+    $third_price = (int)$_POST["third_price"]; 
+    $additional_price = $_POST["additional_price"]; 
+    $entrance_fees = (int)$_POST["entrance_fees"]; 
+    $rules = $_POST["rules"]; 
+    $about_event = $_POST["about_event"]; 
+    $about_organizer = $_POST["about_organizer"]; 
+    $contact_details = $_POST["contact_details"]; 
+    $organizer_mail = $_SESSION["organizer_mail"];
+    if($game == 'Kabaddi')
+    {
+        $image = "../images/kabaddi.png";
+    }
+    else if($game == 'Football'){
+        $image = "../images/football.png";
+    }
+    else if($game == 'Cricket')
+    {
+        $image = "../images/cricket.png";
+    }
+    else{
+        $image = "../images/volley_ball.png";
+    }
+    $sql = "INSERT INTO tournaments(tournament_name,organizer,game,category,gender,venue,landmark,district,state,country,date,first_price,second_price,third_price,additional_price, entrance_fees, rules, about_event, about_organizer, contact_details, organizer_mail,image)
+    VALUES('$tournament_name','$organizer','$game','$category','$gender','$venue','$landmark','$district','$state','$country','$date',$first_price,$second_price,$third_price, '$additional_price' ,$entrance_fees, '$rules', '$about_event', '$about_organizer', '$contact_details', '$organizer_mail','$image')";
+    $result = mysqli_query($conn, $sql);
+    if($result)
+    {
+        echo "<script>alert('Tournament Added Successfully')</script>";
+    }
+    else{
+        echo mysqli_error($conn);
+    }
+}
+?>
+
+
+
+my tournaments
+
+
+
+<?php
+session_start();
+if(!isset($_SESSION["organizer_mail"]))
+{
+    header('location:organizer_login.php');
+}
+include('../webpages/time.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="../style/style.css"> 
+    <title>Add Tournament</title>
+    <style>
+        body{
+            background-size: cover;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;" class="neonText"> Tournament Spot </h1> </div>
+	<div class="menu">
+		<a href="organizer_home.html">Home</a>
+		<a href="add_tournament.php">Add Tournament</a>
+		<a href="#" style="color:#00b894;">My Tournaments</a>
+		<a href="../webpages/logout.php">Logout</a>
+	</div>
+</nav>
+</header>
+<div class="wrapper">
+    <h3 class="form-head">My Tournaments</h3><br>
+    <div class="view-container" align="center"style="margin-left:0px;">
+    <?php
+    function display($tournament_id,$tournament_name,$organizer,$game,$venue,$district,$state, $date, $image)
+    {
+    ?>
+    <div class="card-block" style="margin-left:00px;">
+        <div class="image">
+          <img src="<?php echo $image;?>" class="image" alt=""><br>
+        </div>
+        <div class="content">
+        <div class="first-element">
+        <div class="inside-element" align="center"><h4><?php echo $tournament_name;?></h4></div>
+        <div class="inside-element">Organizer - <?php echo $organizer;?></div>
+        <div class="inside-element">Venue - <?php echo "$venue, $district, $state";?></div>
+        <div class="inside-element">Date - <?php echo $date;?></div>
+        </div>
+        <div class="last-element">
+          <div class="">
+            <a href="tournament_detail.php?tournament_id=<?php echo $tournament_id;?>" class="button-47">Know More</a>
+          </div>
+          <div class="">
+            <a href="update_tournament.php?tournament_id=<?php echo $tournament_id;?>"class="button-47">Update</a>
+          </div>
+          <div class="">
+            <a href="view_teams.php?tournament_id=<?php echo $tournament_id;?>" class="button-47">View Teams</a>
+          </div>
+        </div>
+      </div></div>
+    <?php }?>
+
+<?php
+include("../webpages/connect.php");
+$organizer_mail = $_SESSION["organizer_mail"];
+$sql = "SELECT * FROM tournaments WHERE organizer_mail='$organizer_mail'";
+$result = mysqli_query($conn, $sql);
+if($result)
+{
+    while($row = mysqli_fetch_assoc($result))
+    {
+        $tournament_id = $row["tournament_id"];
+        $tournament_name = $row["tournament_name"];
+        $organizer = $row["organizer"];         
+        $game = $row["game"];
+        $venue = $row["venue"];
+        $district = $row["district"];
+        $state = $row["state"];
+        $date = $row["date"];
+        $image=$row["image"];
+        display($tournament_id,$tournament_name,$organizer,$game,$venue,$district,$state, $date,$image);
+    }
+    if(mysqli_num_rows($result)==0){
+      echo "No Tournaments are conducted by you";
+    }
+}
+else{
+  echo mysqli_error($conn);
+}
+?>
+</div>
+   </div>
+</div>
+    <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+
+organizer_home
+
+
+
+
+
+tournament_detail
+
+<?php
+session_start();
+include('../webpages/connect.php');
+if(!isset($_SESSION["organizer_mail"]))
+{
+    header('location:../organizer_login.php');
+}
+else if(!isset($_GET["tournament_id"]))
+{
+    header('location:view_tournaments.php');
+}
+else{
+    $tournament_id = $_GET["tournament_id"];
+    $sql = "SELECT * FROM tournaments WHERE tournament_id=$tournament_id";
+    $result = mysqli_query($conn, $sql);
+    if($result)
+    {
+        if($row = mysqli_fetch_assoc($result))
+        {
+            $tournament_name = $row["tournament_name"];
+            $organizer = $row["organizer"];
+            $game = $row["game"];
+            $category = $row["category"];
+            $gender = $row["gender"];
+            $venue = $row["venue"];
+            $landmark = $row["landmark"];
+            $district = $row["district"];
+            $state = $row["state"];
+            $first_price = $row["first_price"];
+            $second_price = $row["second_price"];
+            $third_price = $row["third_price"];
+            $additional_price = $row["additional_price"];
+            $entrance_fees = $row["entrance_fees"];
+            $rules = $row["rules"];
+            $about_event = $row["about_event"];
+            $about_organizer = $row["about_organizer"];
+            $contact_details = $row["contact_details"];
+            $organizer_mail = $row["organizer_mail"];
+            $image = $row["image"];
+            $status = $row["status"];
+        }
+    }
+}
+include('../webpages/time.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="../style/style.css"> 
+    <title>Tournament Detail</title>
+    <style>
+        body{
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .tournament-detail-wrapper .side-element{
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.inside-content
+{
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  align-items: left;
+  justify-items: left;
+  word-wrap: break-word;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.inside-content h4{
+    font-size: 22px;
+}
+
+    </style>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;" class="neonText"> Tournament Spot </h1> </div>
+	<div class="menu">
+		<a href="organizer_home.html">Home</a>
+		<a href="add_tournament.php">Add Tournament</a>
+		<a href="#" style="color:#00b894;">My Tournaments</a>
+		<a href="../webpages/logout.php">Logout</a>
+	</div>
+</nav>
+</header>
+   <div class="tournament-detail-wrapper">
+    <h3 class="form-head" align="center">Tournament Detail</h3><br>
+    <div class="go-back">
+    <a href="my_tournaments.php" class="button-47">Go Back</a>
+    </div>
+        <div class="side-element">
+            <h3 align="center"style="color:white;"><?php echo "$tournament_name";?></h3>
+            <div class="main-content">
+            <div class="inside-content"> 
+            <h4>Tournament Details</h4>
+            <p>Tournament Name  -  <?php echo "$tournament_name";?><br>
+            Organizer  -  <?php echo "$organizer";?><br>
+            Game  -  <?php echo "$game";?><br>
+            Category  -  <?php echo "$category";?><br>
+            Gender  -  <?php echo "$gender";?><br><p>
+            </div>
+            <div class="inside-content">
+            <h4>Address</h4>
+            <p>Venue  -  <?php echo "$venue";?><br>
+            Landmark  -  <?php echo "$landmark";?><br>
+            District  -  <?php echo "$district";?><br>
+            State  -  <?php echo "$state";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>Price List</h4>
+            <p>First Price  -  <?php echo "$first_price";?><br>
+            Second Price  -  <?php echo "$second_price";?><br>
+            Third Price  -  <?php echo "$third_price";?><br>
+            Additional Price  -  <?php echo "$additional_price";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>Entrance Fees</h4>
+            <p>Entrance Fees  -  <?php echo "$entrance_fees";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>Rules and Regulations</h4>
+            <p><?php echo "$rules";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>About Event</h4>
+            <p><?php echo "$about_event";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>About Organizer</h4>
+            <p><?php echo "$about_organizer";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>Contact Details</h4>
+            <p><?php echo "$contact_details";?><br>
+            Organizer Mail  -  <?php echo "$organizer_mail";?><br></p>
+        </div>
+    <div align="center">
+            <a href="update.php?tournament_id=<?php echo $tournament_id;?>"class="button-62" >Update</a>
+            </div>
+</div>
+    <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+
+
+
+
+view view_teams
+
+
+<?php
+session_start();
+include('../webpages/connect.php');
+if(!isset($_SESSION["organizer_mail"]))
+{
+    header('location:../organizer_login.php');
+}
+else if(!isset($_GET["tournament_id"]))
+{
+    header('location:my_tournaments.php');
+}
+else{
+    $tournament_id = $_GET["tournament_id"];
+    $sql = "SELECT * FROM tournaments WHERE tournament_id=$tournament_id";
+    $result = mysqli_query($conn, $sql);
+    if($result)
+    {
+        if($row = mysqli_fetch_assoc($result))
+        {
+            $tournament_name = $row["tournament_name"];
+        }
+    }
+    else{
+        echo mysqli_error($conn);
+    }
+}
+include('../webpages/time.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="../style/style.css"> 
+    <title>Tournament Detail</title>
+    <style>
+        body{
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .tournament-detail-wrapper .side-element{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.inside-content
+{
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  margin-top: -10px;
+  background-color: white;
+  align-items: left;
+  justify-items: left;
+  word-wrap: break-word;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.inside-content h4{
+    font-size: 22px;
+}
+
+    </style>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;" class="neonText"> Tournament Spot </h1> </div>
+	<div class="menu">
+		<a href="organizer_home.html">Home</a>
+		<a href="add_tournament.php">Add Tournament</a>
+		<a href="#" style="color:#00b894;">My Tournaments</a>
+		<a href="../webpages/logout.php">Logout</a>
+	</div>
+</nav>
+</header>
+   <div class="tournament-detail-wrapper">
+   <div class="go-back">
+    <a href="my_tournaments.php" class="button-47">Go Back</a>
+    </div>
+        <div class="side-element">
+            <div class="main-content">
+            <div class="inside-content" id="inside-content">
+            <h3 class="form-head" align="center">Registered Teams</h3><br>
+            <h3 align="center"style="color:black;"><?php echo "$tournament_name";?></h3>
+            <table class="table table-responsive">
+            <tr>
+                <th>Team Id</th>
+                <th>Team Name</th>
+                <th>Captain</th>
+                <th>Vice Captain</th>
+                <th>Contact</th>
+                <th>Address</th>
+            </tr>
+            <?php
+            function display($team_id, $team_name, $captain_name, $vice_captain_name, $captain_contact_number,
+             $vice_captain_contact_number,$team_mail_id, $street_name, $area, $district, $state, $pin_code, $user_mail)
+            {?>
+            <tr>
+                <td><?php echo "$team_id";?></td>
+                <td><?php echo "$team_name";?></td>
+                <td><?php echo "$captain_name";?></td>
+                <td><?php echo "$vice_captain_name";?></td>
+                <td><?php echo "Captain  -  $captain_contact_number<br>Vice Captain  -  $vice_captain_contact_number<br>Mail  -  $team_mail_id";?></td>
+                <td><?php echo "$street_name,$area,<br>$district,$state<br>Pin Code  -  $pin_code";?></td>
+            </tr>
+           <? }?>
+           
+<?php
+$sql = "SELECT * FROM registration WHERE tournament_id=$tournament_id";
+    $result = mysqli_query($conn, $sql);
+    if($result)
+    {
+        while($row = mysqli_fetch_assoc($result))
+        {
+            $team_id = $row["team_id"];
+            $team_name = $row["team_name"];
+            $captain_name = $row["captain_name"];
+            $vice_captain_name = $row["vice_captain_name"];
+            $captain_contact_number = $row["captain_contact_number"];
+            $vice_captain_contact_number = $row["vice_captain_contact_number"];
+            $team_mail_id = $row["team_mail_id"];
+            $street_name = $row["street_name"];
+            $area = $row["area"];
+            $district = $row["district"];
+            $state = $row["state"];
+            $pin_code = $row["pin_code"];
+            $user_mail = $row["user_mail"];
+            display($team_id, $team_name, $captain_name, $vice_captain_name, $captain_contact_number,
+             $vice_captain_contact_number,$team_mail_id, $street_name, $area, $district, $state, $pin_code, $user_mail);
+        }
+    }
+    else{
+        echo mysqli_error($conn);
+    }
+    ?>
+    <tr>
+        <td align="center" colspan="6"><button onclick="export_to_pdf()" class="button-62" >Print</button></td>
+    </tr>
+</table>
+           
+        </div>
+</div>
+    <script src="../script/script.js"></script>
+    <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+
+
+
+User Pages
+
+
+registration
+
+
+<?php
+session_start();
+include('../webpages/connect.php');
+if(!isset($_SESSION["user_mail"]))
+{
+    header('location:../user_login.php');
+}
+else if(!isset($_GET["tournament_id"]))
+{
+    header('location:view_tournaments.php');
+}
+else{
+    $tournament_id = $_GET["tournament_id"];
+    $sql = "SELECT * FROM tournaments WHERE tournament_id=$tournament_id";
+    $result = mysqli_query($conn, $sql);
+    if($result)
+    {
+        if($row = mysqli_fetch_assoc($result))
+        {
+            $tournament_name = $row["tournament_name"];
+            $organizer = $row["organizer"];
+            $game = $row["game"];
+            $category = $row["category"];
+            $gender = $row["gender"];
+            $venue = $row["venue"];
+            $landmark = $row["landmark"];
+            $district = $row["district"];
+            $state = $row["state"];
+            $first_price = $row["first_price"];
+            $second_price = $row["second_price"];
+            $third_price = $row["third_price"];
+            $additional_price = $row["additional_price"];
+            $entrance_fees = $row["entrance_fees"];
+            $rules = $row["rules"];
+            $about_event = $row["about_event"];
+            $about_organizer = $row["about_organizer"];
+            $contact_details = $row["contact_details"];
+            $organizer_mail = $row["organizer_mail"];
+            $image = $row["image"];
+            $status = $row["status"];
+        }
+    }
+}
+include('../webpages/time.php');
+if(isset($_POST["register"]))
+{
+    $tournament_id = $_GET["tournament_id"];
+    $team_name = $_POST["team_name"];
+    $captain_name = $_POST["captain_name"];
+    $vice_captain_name = $_POST["vice_captain_name"];
+    $captain_contact_number = $_POST["captain_contact_number"];
+    $vice_captain_contact_number = $_POST["vice_captain_contact_number"];
+    $team_mail_id = $_POST["team_mail_id"];
+    $street_name = $_POST["street_name"];
+    $area = $_POST["area"];
+    $team_district = $_POST["team_district"];
+    $team_state = $_POST["team_state"];
+    $pin_code = $_POST["pin_code"];
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="../style/style.css"> 
+    <title>Registration</title>
+    <style>
+        body{
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .tournament-detail-wrapper .side-element{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inside-content
+{
+    width:100%;
+  padding: 20px;
+  background-color: white;
+  word-wrap: break-word;
+  border-radius: 10px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.inside-element{
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+}
+.inside-content h4{
+    font-size: 22px;
+}
+.top-tournament-detail{
+    font-size:20px;
+}
+    </style>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;" class="neonText"> Tournament Spot </h1> </div>
+	<div class="menu" style="width:40%;">
+		<a href="user_home.html">Home</a>
+		<a href="#" style="color:#00b894;">Upcomming</a>
+		<a href="#">My Tournaments</a>
+		<a href="../webpages/logout.php">Logout</a>
+	</div>
+</nav>
+</header>
+   <div class="tournament-detail-wrapper">
+    <h3 class="form-head" align="center">Registration</h3><br>
+    <div class="go-back">
+    <?php
+    if(isset($_GET["tournament_id"]))
+    {
+        echo"
+    <a href='tournament_detail.php?tournament_id=$tournament_id' class='button-47'>Go Back</a>";
+    }
+    else{
+        echo "
+        <a href='view_tournaments.php' class='button-47'>Go Back</a>";
+    }
+    ?>
+    </div> 
+    <div class="top-tournament-detail" align="center">
+    <h3>Tournament Details</h3>
+            <p>Tournament Name  -  <?php echo "$tournament_name";?><br>
+            Organizer  -  <?php echo "$organizer";?><br>
+            Game  -  <?php echo "$game";?><br>
+            Category  -  <?php echo "$category";?><br>
+            Gender  -  <?php echo "$gender";?><br>
+            Entrance Fees  -  <?php echo $entrance_fees;?></p>
+    </div>
+        <div class="side-element">
+            <div class="main-content">
+            <div class="inside-content"> 
+            <h3 class="form-head" align="center">Team Registration</h3>
+            <form action="#" method="post" class="form-block" autocomplete="on">
+            <div class="inside-element">
+            <div class="form-group">
+            <label for="team_name" class="control-label">Team Name</label>
+            <input type="text" name="team_name" class="form-control" value="<?php echo $team_name;?>" required>
+            </div>
+            <div class="form-group">
+            <label for="captain_name" class="control-label">Captain Name</label>
+            <input type="text" name="captain_name" class="form-control" value="<?php echo $captain_name;?>" required>
+            </div>
+            <div class="form-group">
+            <label for="vice_captain_name" class="control-label">Vice Captain Name</label>
+            <input type="text" name="vice_captain_name" class="form-control" value="<?php echo $vice_captain_name;?>" required>
+            </div>
+            <div class="form-group">
+            <label for="captain_contact_number" class="control-label">Captain Contact Number</label>
+            <input type="tell" name="captain_contact_number" class="form-control" pattern="[6-9]{1}[0-9]{9}" title="Enter a valid Mobile Number"value="<?php echo $captain_contact_number;?>" required>
+            </div>
+            <div class="form-group">
+            <label for="vice_captain_contact_number" class="control-label">Vice Captain Contact Number</label>
+            <input type="tell" name="vice_captain_contact_number" pattern="[6-9]{1}[0-9]{9}" title="Enter a valid Mobile Number" class="form-control" value="<?php echo $vice_captain_contact_number;?>" required>
+            </div>
+            <div class="form-group">
+            <label for="team_mail_id" class="control-label">Team Or Captain Mail</label>
+            <input type="email" name="team_mail_id" class="form-control" value="<?php echo $team_mail_id;?>" required>
+            </div>
+            <div class="form-group">
+            <label for="street_name" class="control-label">Street Name</label>
+            <input type="text" name="street_name" class="form-control" value="<?php echo $street_name;?>" required>
+            </div>
+            <div class="form-group">
+            <label for="area" class="control-label">Area</label>
+            <input type="text" name="area" class="form-control" value="<?php echo $area;?>" required>
+            </div>
+            <div class="form-group">
+            <label for="team_district" class="control-label">District</label>
+            <input type="text" name="team_district" class="form-control" value="<?php echo $team_district;?>" required>
+            </div>
+            <div class="form-group">
+            <label for="team_state" class="control-label">State</label>
+            <input type="text" name="team_state" class="form-control" value="<?php echo $team_state;?>" required>
+            </div>
+            <div class="form-group">
+            <label for="pin_code" class="control-label">Pin Code</label>
+            <input type="tell" name="pin_code" pattern="[0-9]{6}" title="Enter a valid Pin Code" class="form-control" value="<?php echo $pin_code;?>" required>
+            </div>
+            <div align="center" style="margin-left:100px">
+            <input type="submit" name="register" class="button-62" value="Register">
+            </div>
+            </form>
+            </div></div>
+</div>
+    <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+<?php
+include('../webpages/connect.php');
+if(isset($_POST["register"]))
+{
+    $tournament_id = $_GET["tournament_id"];
+    $team_name = $_POST["team_name"];
+    $captain_name = $_POST["captain_name"];
+    $vice_captain_name = $_POST["vice_captain_name"];
+    $captain_contact_number = $_POST["captain_contact_number"];
+    $vice_captain_contact_number = $_POST["vice_captain_contact_number"];
+    $team_mail_id = $_POST["team_mail_id"];
+    $street_name = $_POST["street_name"];
+    $area = $_POST["area"];
+    $team_district = $_POST["team_district"];
+    $team_state = $_POST["team_state"];
+    $pin_code = $_POST["pin_code"];
+    $sql = "SELECT * FROM registration WHERE tournament_id=$tournament_id AND team_name='$team_name'";
+    $result = mysqli_query($conn, $sql);
+    if(mysqli_num_rows($result)>0)
+    {
+        echo "<script>alert('Team Name already registered for this Tournament')</script>";
+    }
+    else{
+    $sql = "INSERT INTO registration (tournament_id, team_name, captain_name, vice_captain_name, captain_contact_number, vice_captain_contact_number, team_mail_id, street_name, area, district, state, pin_code, user_mail) 
+    VALUES($tournament_id, '$team_name', '$captain_name', '$vice_captain_name', '$captain_contact_number', '$vice_captain_contact_number','$team_mail_id', '$street_name', '$area', '$team_district', '$team_state', '$pin_code', '$user_mail')";
+    $result = mysqli_query($conn, $sql);
+    if($result)
+    {
+        echo "<script>alert('Team Registered Successfully')</script>";
+    } 
+    else{
+        echo mysqli_error($conn);
+    }
+}
+}
+?>
+
+
+
+tournament_detail
+
+<?php
+session_start();
+include('../webpages/connect.php');
+if(!isset($_SESSION["user_mail"]))
+{
+    header('location:../user_login.php');
+}
+else if(!isset($_GET["tournament_id"]))
+{
+    header('location:view_tournaments.php');
+}
+else{
+    $tournament_id = $_GET["tournament_id"];
+    $sql = "SELECT * FROM tournaments WHERE tournament_id=$tournament_id";
+    $result = mysqli_query($conn, $sql);
+    if($result)
+    {
+        if($row = mysqli_fetch_assoc($result))
+        {
+            $tournament_name = $row["tournament_name"];
+            $organizer = $row["organizer"];
+            $game = $row["game"];
+            $category = $row["category"];
+            $gender = $row["gender"];
+            $venue = $row["venue"];
+            $landmark = $row["landmark"];
+            $district = $row["district"];
+            $state = $row["state"];
+            $first_price = $row["first_price"];
+            $second_price = $row["second_price"];
+            $third_price = $row["third_price"];
+            $additional_price = $row["additional_price"];
+            $entrance_fees = $row["entrance_fees"];
+            $rules = $row["rules"];
+            $about_event = $row["about_event"];
+            $about_organizer = $row["about_organizer"];
+            $contact_details = $row["contact_details"];
+            $organizer_mail = $row["organizer_mail"];
+            $image = $row["image"];
+            $status = $row["status"];
+        }
+    }
+}
+include('../webpages/time.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="../style/style.css"> 
+    <title>Tournament Detail</title>
+    <style>
+        body{
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .tournament-detail-wrapper .side-element{
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.inside-content
+{
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  align-items: left;
+  justify-items: left;
+  word-wrap: break-word;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.inside-content h4{
+    font-size: 22px;
+}
+
+    </style>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;" class="neonText"> Tournament Spot </h1> </div>
+	<div class="menu" style="width:40%;">
+		<a href="user_home.html">Home</a>
+		<a href="#" style="color:#00b894;">Upcomming</a>
+		<a href="#">My Tournaments</a>
+		<a href="../webpages/logout.php">Logout</a>
+	</div>
+</nav>
+</header>
+   <div class="tournament-detail-wrapper">
+    <h3 class="form-head" align="center">Tournament Detail</h3><br>
+    <div class="go-back">
+    <a href="view_tournaments.php" class="button-47">Go Back</a>
+    </div>
+        <div class="side-element">
+            <h3 align="center"style="color:white;"><?php echo "$tournament_name";?></h3>
+            <div class="main-content">
+            <div class="inside-content"> 
+            <h4>Tournament Details</h4>
+            <p>Tournament Name  -  <?php echo "$tournament_name";?><br>
+            Organizer  -  <?php echo "$organizer";?><br>
+            Game  -  <?php echo "$game";?><br>
+            Category  -  <?php echo "$category";?><br>
+            Gender  -  <?php echo "$gender";?><br><p>
+            </div>
+            <div class="inside-content">
+            <h4>Address</h4>
+            <p>Venue  -  <?php echo "$venue";?><br>
+            Landmark  -  <?php echo "$landmark";?><br>
+            District  -  <?php echo "$district";?><br>
+            State  -  <?php echo "$state";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>Price List</h4>
+            <p>First Price  -  <?php echo "$first_price";?><br>
+            Second Price  -  <?php echo "$second_price";?><br>
+            Third Price  -  <?php echo "$third_price";?><br>
+            Additional Price  -  <?php echo "$additional_price";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>Entrance Fees</h4>
+            <p>Entrance Fees  -  <?php echo "$entrance_fees";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>Rules and Regulations</h4>
+            <p><?php echo "$rules";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>About Event</h4>
+            <p><?php echo "$about_event";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>About Organizer</h4>
+            <p><?php echo "$about_organizer";?><br></p>
+            </div>
+            <div class="inside-content">
+            <h4>Contact Details</h4>
+            <p><?php echo "$contact_details";?><br>
+            Organizer Mail  -  <?php echo "$organizer_mail";?><br></p>
+        </div>
+    <div align="center">
+            <a href="registration.php?tournament_id=<?php echo $tournament_id;?>"class="button-62" >Register</a>
+            </div>
+</div>
+    <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+
+
+user_home
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="style/style.css"> 
+    <title>Home</title>
+</head>
+<body>
+   <header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;"> Tournament Spot </h1> </div>
+	<div class="menu">
+		<a href="#">Home</a>
+		<a href="#">Upcomming</a>
+		<a href="#">My Tournaments</a>
+		<a href="#">Sign In</a>
+		<a href="#">Sign Up</a>
+	</div>
+</nav>
+</header>
+<div class="wrapper"></div>
+
+
+
+
+   <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+
+
+
+
+
+view_tournaments
+
+
+<?php
+session_start();
+if(!isset($_SESSION["user_mail"]))
+{
+    header('location:user_login.php');
+}
+include('../webpages/time.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet"type="text/css"  href="../style/style.css"> 
+    <title>Upcomming Tournaments</title>
+    <style>
+        body{
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;" class="neonText"> Tournament Spot </h1> </div>
+	<div class="menu" style="width:35%;">
+		<a href="user_home.html">Home</a>
+		<a href="#"style="color:#00b894;">Upcomming</a>
+		<a href="#">My Tournaments</a>
+		<a href="../webpages/logout.php">Logout</a>
+	</div>
+</nav>
+</header>
+   <div class="wrapper">
+    <h3 class="form-head">Upcomming Tournaments</h3><br>
+    <div class="view-container" align="center"style="margin-left:0px;">
+    <?php
+    function display($tournament_id,$tournament_name,$organizer,$game,$venue,$district,$state, $date, $image)
+    {
+    ?>
+    <div class="card-block" style="margin-left:00px;">
+        <div class="image">
+          <img src="<?php echo $image;?>" class="image" alt=""><br>
+        </div>
+        <div class="content">
+        <div class="first-element">
+        <div class="inside-element" align="center"><h4><?php echo $tournament_name;?></h4></div>
+        <div class="inside-element">Organizer - <?php echo $organizer;?></div>
+        <div class="inside-element">Venue - <?php echo "$venue, $district, $state";?></div>
+        <div class="inside-element">Date - <?php echo $date;?></div>
+        </div>
+        <div class="last-element">
+          <div class="">
+            <a href="tournament_detail.php?tournament_id=<?php echo $tournament_id;?>" class="button-47">Know More</a>
+          </div>
+          <div class="">
+            <a href="registration.php?tournament_id=<?php echo $tournament_id;?>"class="button-47">Register</a>
+          </div>
+        </div>
+      </div></div>
+    <?php }?>
+
+<?php
+include("../webpages/connect.php");
+$sql = "SELECT * FROM tournaments";
+$result = mysqli_query($conn, $sql);
+if($result)
+{
+    while($row = mysqli_fetch_assoc($result))
+    {
+        $tournament_id = $row["tournament_id"];
+        $tournament_name = $row["tournament_name"];
+        $organizer = $row["organizer"];         
+        $game = $row["game"];
+        $venue = $row["venue"];
+        $district = $row["district"];
+        $state = $row["state"];
+        $date = $row["date"];
+        $image=$row["image"];
+        display($tournament_id,$tournament_name,$organizer,$game,$venue,$district,$state, $date,$image);
+    }
+}
+?>
+</div>
+   </div>
+</div>
+    <script src="Bootstrap/bootstrap-3.4.1-dist/js/jquery-3.6.1.min.js"></script>
+   <script scr="Bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </body>
+
+</html>
+
+
+
+webpages
+
+
+
+connect
+
+<?php
+$conn = mysqli_connect("localhost","root","root","tournament");
+if(!$conn)
+{
+    die(mysqli_connect_error());
+}
+?>
+
+logout
+
+
+<?php
+session_start();
+session_abort();
+session_destroy();
+header('location:../index.html');
+?>
+
+
+
+time
+
+
+<?php
+date_default_timezone_set('Asia/Kolkata');
+$today = date('Y-m-d');
+$today_str = strtotime($today);
+$from = date('Y-m-d',strtotime("+7 day", $today_str));
+$valid_date = date('Y-m-d',strtotime("+2 month", $today_str));
+$time_now = date('H:i:s');
+?>
+
+
+
+
+style
+
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bitter&family=La+Belle+Aurore&family=Lato&family=Playfair+Display+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", "Brandon Grotesque", sans-serif;
+  }
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color:  #e7f2f8;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  header {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  nav .logo {
+    width: 25%;
+    text-align: center;
+  }
+  nav .menu {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav .menu a {
+    /* width: 25%; */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  nav .menu a:hover{
+    color:cadetblue;
+  }
+  .wrapper{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-control{
+    border-radius: 13px;
+    width: 300px;
+}
+.control-label{
+    margin-left: 3px;
+    font-family: 'Bitter', serif;
+    font-size: 17px;
+}
+.letter-design{
+    font-size: 16px;
+    font-family: 'Bitter', serif;
+    color: #042331;
+}
+.form-head{
+    font-family: 'Bitter', serif;
+    margin-left: 2px;
+    font-style: bold;
+    letter-spacing: 4px;
+    font-weight: 900;
+    padding-bottom: 20px;
+
+}
+.flex-head{
+    font-family: 'Bitter', serif;
+    font-style: bold;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #274472;
+}
+.register{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.active-page a{
+    color: skyblue;
+}
+.button-design{
+    padding: 5px;
+}
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 8px 18px;
+  border: 0;
+  letter-spacing: 1px;
+}
+.button-34:hover{
+    background-color: #274472;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}  
+.card-block{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    min-height: 350px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+}
+.image{
+    border-radius: 10px 10px 0px 0px;
+    width: 295px;
+}
+a.button-47:hover{
+  text-decoration: none;
+}
+.view-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-left: 100px;
+}
+.content{
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 12px;
+}
+.first-element{
+  display: flex;
+  flex-direction: column;
+}
+.last-element{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 13px;
+    padding-left: 13px;
+}
+.inside-element{
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+p{
+    word-wrap: break-word;
+    color: black;
+}
+.button-47 {
+  align-items: center;
+  background: #FFFFFF;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  padding: 7px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-47:hover{
+  background-color: black;
+  color: white;
+}
+.last-element{
+  align-self: flex-end;
+}
+/*Tournament Detail*/
+.tournament-detail-wrapper{
+  padding: 20px;
+  margin-top: 20px;
+}
+.tournament-detail-wrapper .tournament-detail-content .top-element{
+  display: inline-flex;
+  flex-direction: column;
+}
+.tournament-detail-wrapper .side-element{
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+}
+.tournament-detail-wrapper .side-element .inside-element
+{
+  width: 70%;
+  padding: 50px;
+  background-color: white;
+}
+/* CSS */
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+/* Neon Text Effect */
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+h1, h2 {
+  text-align: center;
+  font-weight: 400;
+} 
+h1 {
+    font-size: 5.2rem;
+    animation: pulsate 0.11s ease-in-out infinite alternate;     
+}
+h2 {
+    font-size: 1.8rem;
+}
+@keyframes pulsate {
+
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #5271ff,
+      0 0 80px #5271ff,
+      0 0 90px #5271ff,
+      0 0 100px #5271ff,
+      0 0 150px #5271ff;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 4px #fff,
+    0 0 10px #fff,
+    0 0 18px #fff,
+    0 0 38px #5271ff,
+    0 0 73px #5271ff,
+    0 0 80px #5271ff,
+    0 0 94px #5271ff,
+    0 0 140px #5271ff;
+}
+}
+
+
+script
+
+
+
+function export_to_pdf()
+{
+    var prtContent = document.getElementById("inside-content");
+    var WinPrint = window.open('', '', 'left=0,top=0,width=800,height=900,toolbar=0,scrollbars=0,status=0');
+    WinPrint.document.write(prtContent.innerHTML);
+    WinPrint.document.close();
+    WinPrint.focus();
+    WinPrint.print();
+    WinPrint.close();
+}
+
+
+
+
+
+
+   
+
+
+
